@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import TrackViewer from './TrackViewer';
 import reportWebVitals from './reportWebVitals';
+import MainRoom from './MainRoom';
+import Bard from './Bard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <TrackViewer />
   </React.StrictMode>
 );
 
